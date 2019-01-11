@@ -5,14 +5,14 @@ namespace UdemyCourseFollowThrough.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<UdemyCourseFollowThrough.Models.MyDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<UdemyCourseFollowThrough.Models.HarryDesktopContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(UdemyCourseFollowThrough.Models.MyDbContext context)
+        protected override void Seed(UdemyCourseFollowThrough.Models.HarryDesktopContext context)
         {
             //  This method will be called after migrating to the latest version.
 
