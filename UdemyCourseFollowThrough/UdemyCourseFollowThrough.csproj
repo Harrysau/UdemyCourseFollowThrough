@@ -110,7 +110,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customers.cs" />
     <Compile Include="Models\Movies.cs" />
-    <Compile Include="Models\HarryLaptop.cs" />
+    <Compile Include="Models\HarryLaptopContext.cs" />
     <Compile Include="Models\HarryDesktopContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
